@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;}
+body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #ffffff;
+        background-size: cover;
+        background-position: center;
+        transition: linear violet;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: radial-gradient(circle, rgb(92, 91, 91) 5%, rgb(75, 74, 74) 10%, rgb(22, 22, 22) 60%);
+    }
+    .ver1{
+      writing-mode: vertical-lr;
+    }
+    
+    
+    h2{
+      margin: 0;
+      padding: 0 0 0px;
+      text-align: center;
+      font-size: 30px;
+      font-style: inherit;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-synthesis: style;
+      color: #005086;
+    }
+    
+    
+    .loginbox{
+        width: 550px;
+        background: #ffd900;
+        color: #1b262c;
+        font-size: 27px;
+        font-style: normal;
+        top: 100%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 0px 70px 0px 70px;
+        padding: 30px 30px;
+        box-shadow: black;
+    }
+    
+    h1{
+        margin: 0;
+        padding: 0 0 15px;
+        text-align: center;
+        font-size: 30px;
+        font-style: inherit;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-synthesis: style;
+        text-shadow: 4px 4px 0px 3px blueviolet;
+        color: #005086;
+    }
+    
+    .loginbox p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #005086;
+        opacity: 100%;
+    }
+    
+    .loginbox input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .loginbox textarea{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .loginbox select{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .loginbox input[type="text"], input[type="email"], select[type="select"], input[type="number"], input[type="date"]
+    {
+        border: none;
+        border-bottom: 2px solid #318fb5;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    textarea[name="address"]
+    {
+      border: none;
+      border-bottom: 2px solid #318fb5;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: rgb(0, 0, 0);
+      font-size: 19px;
+    }
+    
+    .container p{
+        font-size: 20px;
+    }
+    
+    /* Start of the Radio Style */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+      
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #F23827;
+        border-radius: 50%;
+      }
+      
+      .container:hover input ~ .checkmark {
+        background-color: #ff6152;
+      }
+      
+      .container input:checked ~ .checkmark {
+        background-color: #70008b;
+      }
+      
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      .container .checkmark:after {
+           top: 9px;
+          left: 9px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: white;
+      }
+    /* Radio Style end */
+    
+    .loginbox input[type="submit"]
+    {
+        border: none;
+        outline: none;
+        height: 40px;
+        background-color: rgba(20, 20, 20);
+        color: rgb(255, 238, 2);
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    
+    .loginbox input[type="submit"]:hover
+    {
+        cursor: alias;
+        background: linear-gradient(to right, #352700, #423e00);
+    }
+    
+    .loginbox a{
+        text-decoration: none;
+        font-size: 12px;
+         line-height:20px;
+        color: darkgray;
+    }
+    
+    .loginbox a:hover
+    {
+        color: #fb2525;
+    }

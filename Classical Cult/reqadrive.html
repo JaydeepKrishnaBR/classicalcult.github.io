@@ -1,0 +1,119 @@
+<html>
+    <head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" type="text/css" href="./css/req-style.css">
+    </head>
+    <body onload="zoom()">
+        <div class="bgcolored">
+        <div class="loginbox">
+            <h1>REQUEST A DRIVE</h1>
+            <form>
+                
+                <p>First Name</p>
+                <input type="text" name="name" placeholder="Enter First Name" required>
+                <p>Last Name</p>
+                <input type="text" name="username" placeholder="Enter Last Name" required>
+                <p>E-mail</p>
+                <input type="email" name="email" placeholder="Enter Email" required>
+                <p>Mobile Number</p>
+                <input type="number" name="phone" minlength="10" maxlength="10" placeholder="Enter Mobile Number" required>
+                <p>Gender</p><br>
+                <label class="container">
+                    <input type="radio" name="radio"> <P>Male</P>
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="radio" name="radio"> <P>Female</P>
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="radio" name="radio"> <P>Other</P>
+                    <span class="checkmark"></span>
+                  </label><br>
+                <P>Date to Test</P>
+                <input type="date" name="dob" required>
+                <p>Address</p>
+                <textarea name="address" rows="5" cols="5" placeholder="Enter Address" required></textarea>
+                <p>City</p>
+                <input type="text" name="city" placeholder="Enter City Name" required>
+                <p>Pincode</p>
+                <input type="number" name="pincode" minlength="6" maxlength="6" placeholder="Enter Pin-Code" required>
+                <p>State</p>
+                <select type="select" name="State" required>
+                    <option value="" disabled selected>Select State</option>
+                    <option value="Andra">Andhra Pradesh</option>
+                    <option value="Arunachal">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisghar">Chhattisghar</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajastan">Rajastan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar">Uttar Pradesh</option>
+                    <option value="Uttarkhand">Uttarkhand</option>
+                    <option value="West">West Bengal</option>
+                    <option value="" disabled>-------------------------Union Territories-------------------------</option>
+                    <option value="Andaman">Andaman and Nicobar Islands</option>
+                    <option value="Chandigar">Chandigar</option>
+                    <option value="Dadra">Dadra and Nagar Haveli</option>
+                    <option value="Daman">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Ladakh">Ladakh</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="	Puducherry">Puducherry</option>
+                </select>
+                <p>Car Name</p><br>
+                <label class="container">
+                    <input type="radio" name="radio"> <P>Ford Mustang GT</P>
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="radio" name="radio"> <P>Ford Mustabg Premium</P>
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="radio" name="radio"> <P>Ford Mustang Gold Edition</P>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    <input type="radio" name="radio"> <P>Other</P>
+                    <span class="checkmark"></span>
+                </label>
+                <input type="text" name="otherHobby" maxlength="50" placeholder="Eg: The Vareity you wish,">
+                <p>Model Vareity</p>
+                <select type="select" name="course" id="crs" required>
+                    <option value="" disabled selected>Select Vareity</option>
+                    <option value="cse">Ford Mustang 1964</option>
+                    <option value="IT">Ford Mustang GT 2020</option>
+                    <option value="ECE">Ford Mustang 1975</option>
+                </select> <br>
+                <br>
+                <input type="submit" name="ok" value="Request">
+            </form>
+        </div>
+    </div>
+    <script>
+      function zoom() {
+        document.body.style.zoom = "79%" 
+    }
+    </script>
+    </body>
+</html>
